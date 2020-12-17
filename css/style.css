@@ -16,6 +16,7 @@ body {
   height: 100%;
 }
 .container2 {
+  overflow: hidden;
   margin: auto;
   max-width: 90%;
   b/background-color: rgb(255, 181, 199);
@@ -214,4 +215,20 @@ body {
 }
 
 @media (max-width: 500px) {
+}
+
+/* Tabs */
+.tabs {
+  background: rgb(226, 218, 218);
+  padding-top: 1rem;
+  border-bottom: 3px solid rgb(152, 2, 2);
+}
+
+.tabs .container-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
