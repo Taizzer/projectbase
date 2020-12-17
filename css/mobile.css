@@ -1,0 +1,70 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.ul1 li a {
+  text-decoration: none;
+
+  display: block;
+  color: #000;
+  text-align: center;
+}
+
+.ul1 li {
+  list-style: none;
+  border-bottom: yellow 1px solid;
+}
+
+.ul1 li:last-child {
+  border-bottom: none;
+}
+
+.ul1 {
+  background: #cccccc;
+  width: 200px;
+  border: #1d1d1d 1px solid;
+}
+
+/*mean except :not()*/
+.ul1 li a:hover:not(.active) {
+  background: #757575;
+  color: #fff;
+}
+
+.ul1 .active {
+  background: green;
+  color: #fff;
+}
+
+/*NAV 2*/
+.nav2 .ul2 {
+  background: yellow;
+  width: 25%;
+  /*text-align: center;*/
+  height: 50px; /* should be 100%*/
+  pposition: fixed; /*position:fixed;*/
+  overflow: auto;
+  margin: 1px;
+}
+.nav2 {
+  background: red;
+  overflow: hidden;
+  margin: 0px;
+}
+.divtext {
+  margin-left: 25%;
+}
+
+.ul2 a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 1px;
+}
+.ul2 li {
+  padding: 1px;
+  list-style: none;
+}
+
+/*NAV 3*/
